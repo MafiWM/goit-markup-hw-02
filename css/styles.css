@@ -3,7 +3,6 @@
   --footer-text-color: #e7e9fc;
   --primary-background-color: #ffffff;
   --primary-font: "Roboto", sans-serif;
-  --primary-font-size: 16px;
   --primary-letter-spacing: 0.02em;
   --primary-line-height: 1.5;
   --primary-text-color: #434455;
@@ -12,6 +11,28 @@
   --secondary-line-height: 1.2;
   --color: #f4f4fd;
   --title-text-color: #2e2f42;
+}
+.navigation .link {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: var(--primary-font-size);
+  line-height: var(--primary-line-height);
+}
+.navigation .link:hover,
+.navigation .link:focus {
+  color: var(--accent)
+}
+.navigation .link:active {
+  color: var(--accent)
+}
+.contacts .link{
+  color: var(--primary-text-color);
+  font-size: var(--primary-font-size);
+  line-height: var(--primary-line-height)
+}
+.contacts .link:focus
+.contacts .link:hover {
+  color: var(--accent)
 }
 body {
   background-color: var(--primary-background-color);
