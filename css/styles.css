@@ -20,19 +20,22 @@
 }
 .navigation .link:hover,
 .navigation .link:focus {
-  color: var(--accent)
+  color: var(--accent);
 }
 .navigation .link:active {
-  color: var(--accent)
+  color: var(--accent);
 }
-.contacts .link{
+.contacts .link {
   color: var(--primary-text-color);
   font-size: var(--primary-font-size);
-  line-height: var(--primary-line-height)
+  line-height: var(--primary-line-height);
 }
-.contacts .link:focus
+.contacts .link:focus,
 .contacts .link:hover {
-  color: var(--accent)
+  color: var(--accent);
+}
+.contacts .link:active {
+  color: var(--accent);
 }
 body {
   background-color: var(--primary-background-color);
@@ -122,6 +125,7 @@ body {
   background-color: var(--primary-background-color);
 }
 .team-name {
+  color: var(--title-text-color);
   font-weight: var(--secondary-font-weight);
   font-size: var(--secondary-font-size);
   line-height: var(--secondary-line-height);
